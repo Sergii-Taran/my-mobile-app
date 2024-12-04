@@ -4,169 +4,221 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Mobile App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+      integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header>
-      <a href="./index.html">Mobileapp</a>
-      <nav>
-        <ul>
-          <li><a href="./index.html"></a>HOME</li>
-          <li><a href=""></a>FEATURES</li>
-          <li><a href=""></a>TEAM</li>
-          <li><a href=""></a>TESTIMONIALS</li>
-          <li><a href=""></a>CONTACT</li>
+    <header class="header">
+      <a class="header-title" href="./index.html">Mobileapp</a>
+      <nav class="header-menu">
+        <ul class="header-menu-list">
+          <li class="header-menu-item">
+            <a class="header-menu-link" href="./index.html">HOME</a>
+          </li>
+          <li class="header-menu-item">
+            <a class="header-menu-link" href="">FEATURES</a>
+          </li>
+          <li class="header-menu-item">
+            <a class="header-menu-link" href="">TEAM</a>
+          </li>
+          <li class="header-menu-item">
+            <a class="header-menu-link" href="">TESTIMONIALS</a>
+          </li>
+          <li class="header-menu-item">
+            <a class="header-menu-link" href="">CONTACT</a>
+          </li>
         </ul>
       </nav>
     </header>
     <main>
-      <section>
-        <h1>Introducing Mobileapp</h1>
-        <h3>Download our mobile app today!</h3>
-        <ul>
-          <li>Real-time updates and notifications for timely information</li>
-          <li>Robust analytics and reporting for data-driven insights</li>
-          <li>Offline capabilities for uninterrupted use</li>
+      <section class="hero">
+        <h1 class="hero-title">Introducing Mobileapp</h1>
+        <h3 class="hero-subtitle">Download our mobile app today!</h3>
+        <ul class="hero-list">
+          <li class="hero-list-item">
+            <p class="hero-item-text">
+              Real-time updates and notifications for timely information
+            </p>
+          </li>
+          <li class="hero-list-item">
+            <p class="hero-item-text">
+              Robust analytics and reporting for data-driven insights
+            </p>
+          </li>
+          <li class="hero-list-item">
+            <p class="hero-item-text">
+              Offline capabilities for uninterrupted use
+            </p>
+          </li>
         </ul>
-        <button type="submit">Download</button>
+        <button class="hero-btn" type="submit">Download</button>
         <img
+          class="hero-image"
           src="./images/hero-image.png"
           width="896"
           height="554"
           alt="mobile phone"
         />
       </section>
-      <section>
-        <h2>KEY FEATURES</h2>
-        <p>
+      <section class="features">
+        <h2 class="features-title section-title">KEY FEATURES</h2>
+        <p class="features-text section-main-text">
           Get the best mobile experience with our Mobileapp. With a
           user-friendly interface, personalized recommendations, secure
           transactions, and real-time updates, our app offers everything you
           need to stay connected and productive
         </p>
-        <ul>
-          <li>
-            <h3>User-Friendly Interface:</h3>
-            <p>
+        <ul class="features-list">
+          <li class="features-list-item">
+            <h3 class="features-list-title">User-Friendly Interface:</h3>
+            <p class="features-list-text">
               Intuitive and easy-to-navigate interface designed to provide a
               seamless mobile experience for users.
             </p>
           </li>
-          <li>
-            <h3>Personalized Recommendations:</h3>
-            <p>
+          <li class="features-list-item">
+            <h3 class="features-list-title">Personalized Recommendations:</h3>
+            <p class="features-list-text">
               The app provides personalized recommendations based on user
               preferences and behavior, allowing for more relevant content and a
               more engaging experience.
             </p>
           </li>
-          <li>
-            <h3>Real-Time Updates:</h3>
-            <p>
+          <li class="features-list-item">
+            <h3 class="features-list-title">Real-Time Updates:</h3>
+            <p class="features-list-text">
               Users receive real-time updates and notifications to stay informed
               on important news and events, and to stay up-to-date with changes
               to the app.
             </p>
           </li>
-          <li>
-            <h3>Integration with Other Apps:</h3>
-            <p>
+          <li class="features-list-item">
+            <h3 class="features-list-title">Integration with Other Apps:</h3>
+            <p class="features-list-text">
               The app integrates with other popular apps, making it easy for
               users to connect with their social media accounts, or to easily
               make in-app purchases using their preferred payment method.
             </p>
           </li>
-          <li>
-            <h3>Multi-Language Support:</h3>
-            <p>
+          <li class="features-list-item">
+            <h3 class="features-list-title">Multi-Language Support:</h3>
+            <p class="features-list-text">
               The app is designed to be accessible to users all around the
               world, with support for multiple languages, making it easier for
               people to use the app in their native language.
             </p>
           </li>
-          <li>
-            <h3>Offline Capabilities:</h3>
-            <p>
+          <li class="features-list-item">
+            <h3 class="features-list-title">Offline Capabilities:</h3>
+            <p class="features-list-text">
               The app offers offline capabilities, allowing users to access
               certain features and content even when they are not connected to
               the internet.
             </p>
           </li>
         </ul>
-        <img src="./images/features-image.png" alt="man with laptop" />
+        <img
+          class="features-image"
+          src="./images/features-image.png"
+          alt="man with laptop"
+        />
       </section>
-      <section>
-        <h2>WATCH THE VIDEO</h2>
-        <p>
+      <section class="video">
+        <h2 class="video-title section-title">WATCH THE VIDEO</h2>
+        <p class="video-text section-main-text">
           Watch the video below to see our mobile app in action. With a
           user-friendly interface, personalized recommendations, secure
           transactions, and real-time updates, our app is available for download
           on both Apple and Android devices and is designed to make your life
           easier.
         </p>
-        <img src="./images/iPhone.png" width="500" height="282" alt="iPhone" />
+        <img
+          class="video-image"
+          src="./images/iPhone.png"
+          width="500"
+          height="282"
+          alt="iPhone"
+        />
       </section>
-      <section>
-        <h2>OUR TEAM</h2>
-        <p>
+      <section class="team">
+        <h2 class="team-title section-title">OUR TEAM</h2>
+        <p class="team-text section-main-text">
           Our team is made up of talented and passionate individuals who are
           committed to providing the best experience for our users. Each member
           brings a unique set of skills and expertise to the table, allowing us
           to work collaboratively and effectively to achieve our goals.
         </p>
-        <ul>
-          <li>
+        <ul class="team-list">
+          <li class="team-list-item">
             <img
+              class="team-list-image"
               src="./images/team-1.jpg"
               width="264"
               height="260"
               alt="David Patel"
             />
-            <h3>David Patel</h3>
-            <p>Managing Direcor</p>
+            <h3 class="team-list-subtitle">David Patel</h3>
+            <p class="team-list-text">Managing Direcor</p>
           </li>
-          <li>
+          <li class="team-list-item">
             <img
+              class="team-list-image"
               src="./images/team-2.jpg"
               width="264"
               height="260"
               alt="Rachel Kim"
             />
-            <h3>Rachel Kim</h3>
-            <p>Lead Designer</p>
+            <h3 class="team-list-subtitle">Rachel Kim</h3>
+            <p class="team-list-text">Lead Designer</p>
           </li>
-          <li>
+          <li class="team-list-item">
             <img
+              class="team-list-image"
               src="./images/team-3.jpg"
               width="264"
               height="260"
               alt="Samantha Chen"
             />
-            <h3>Samantha Chen</h3>
-            <p>Lead Developer</p>
+            <h3 class="team-list-subtitle">Samantha Chen</h3>
+            <p class="team-list-text">Lead Developer</p>
           </li>
-          <li>
+          <li class="team-list-item">
             <img
+              class="team-list-image"
               src="./images/team-4.jpg"
               width="264"
               height="260"
               alt="Andrew Nguyen"
             />
-            <h3>Andrew Nguyen</h3>
-            <p>Sr. UI Designer</p>
+            <h3 class="team-list-subtitle">Andrew Nguyen</h3>
+            <p class="team-list-text">Sr. UI Designer</p>
           </li>
         </ul>
       </section>
-      <section>
-        <h2>WHAT OUR COSTUMER'S SAY</h2>
+      <section class="customers">
+        <h2 class="customers-title section-title">WHAT OUR COSTUMER'S SAY</h2>
         <img
+          class="customers-image"
           src="./images/customer-1.jpg"
           width="181"
           height="181"
           alt="Jon Doe"
         />
-        <h3>Jon Doe</h3>
-        <p>Company Inc.</p>
-        <p>
+        <h3 class="customers-subtitle">Jon Doe</h3>
+        <p class="customers-subtext">Company Inc.</p>
+        <p class="customers-text section-main-text">
           I've been using this app for a few weeks now and I have to say, I'm
           really impressed. It's so easy to use and the personalized
           recommendations are spot-on. Plus, the transactions are secure and the
@@ -175,25 +227,57 @@
         </p>
       </section>
     </main>
-    <footer>
-      <h2>CONTACT US</h2>
-      <p>Get in touch with us</p>
-      <p>
+    <footer class="footer">
+      <h2 class="footer-title section-title">CONTACT US</h2>
+      <p class="footer-main-text">Get in touch with us</p>
+      <p class="footer-text">
         Have a question or comment about our app? Get in touch with us using the
         contact form below and our team will respond shortly.
       </p>
-      <ul>
-        <li><a href="" target="_blank" rel="noopener noreferrer">fb</a></li>
-        <li><a href="" target="_blank" rel="noopener noreferrer">twit</a></li>
-        <li><a href="" target="_blank" rel="noopener noreferrer">insta</a></li>
+      <ul class="footer-social-list">
+        <li class="footer-sicial-item">
+          <a
+            class="footer-social-link"
+            href=""
+            target="_blank"
+            rel="noopener noreferrer"
+            >fb</a
+          >
+        </li>
+        <li class="footer-sicial-item">
+          <a
+            class="footer-social-link"
+            href=""
+            target="_blank"
+            rel="noopener noreferrer"
+            >twit</a
+          >
+        </li>
+        <li class="footer-sicial-item">
+          <a
+            class="footer-social-link"
+            href=""
+            target="_blank"
+            rel="noopener noreferrer"
+            >insta</a
+          >
+        </li>
       </ul>
-      <address>
-        <ul>
-          <li><a href="tel:+XXXXXXXXXXXX"></a>+xx-xxxx-xxxx-xx</li>
-          <li><a href="mailto:goIteens@gmail.com"></a>goIteens@gmail.com</li>
+      <address class="footer-address">
+        <ul class="footer-address-list">
+          <li class="footer-address-item">
+            <a class="footer-address-link" href="tel:+XXXXXXXXXXXX"
+              >+xx-xxxx-xxxx-xx</a
+            >
+          </li>
+          <li class="footer-address-item">
+            <a class="footer-address-link" href="mailto:goIteens@gmail.com"
+              >goIteens@gmail.com</a
+            >
+          </li>
         </ul>
-        <button type="submit">SUBMIT</button>
       </address>
+      <button class="footer-btn" type="submit">SUBMIT</button>
     </footer>
   </body>
 </html>
