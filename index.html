@@ -4,90 +4,123 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mobile App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+      integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
 
   <body>
-    <header>
-      <a href="">Mobileapp</a>
-      <ul>
-        <li><a href="">HOME</a></li>
-        <li><a href="#features">FEATURES</a></li>
-        <li><a href="#team">TEAM</a></li>
-        <li><a href="#testimonials">TESTIMONIALS</a></li>
-        <li><a href="#contact">CONTACT</a></li>
-      </ul>
+    <header class="header">
+      <a class="header-logo" href="./index.html">Mobileapp</a>
+      <nav class="header-nav">
+        <ul class="header-nav-list">
+          <li class="header-nav-item">
+            <a class="header-nav-link" href="">HOME</a>
+          </li>
+          <li class="header-nav-item">
+            <a class="header-nav-link" href="#features">FEATURES</a>
+          </li>
+          <li class="header-nav-item">
+            <a class="header-nav-link" href="#team">TEAM</a>
+          </li>
+          <li class="header-nav-item">
+            <a class="header-nav-link" href="#testimonials">TESTIMONIALS</a>
+          </li>
+          <li class="header-nav-item">
+            <a class="header-nav-link" href="#contact">CONTACT</a>
+          </li>
+        </ul>
+      </nav>
     </header>
 
     <main>
-      <section>
-        <h1>Introducing Mobileapp</h1>
-        <p>Download our mobile app today!</p>
-        <ul>
-          <li>
-            <p>Real-time updates and notifications for timely information</p>
+      <section class="hero">
+        <h1 class="hero-title">Introducing Mobileapp</h1>
+        <h3 class="hero-subtitle">Download our mobile app today!</h3>
+        <ul class="hero-list">
+          <li class="hero-list-item">
+            <p class="hero-list-text">
+              Real-time updates and notifications for timely information
+            </p>
           </li>
-          <li>
-            <p>Robust analytics and reporting for data-driven insights</p>
+          <li class="hero-list-item">
+            <p class="hero-list-text">
+              Robust analytics and reporting for data-driven insights
+            </p>
           </li>
-          <li>
-            <p>Offline capabilities for uninterrupted use</p>
+          <li class="hero-list-item">
+            <p class="hero-list-text">
+              Offline capabilities for uninterrupted use
+            </p>
           </li>
         </ul>
-        <button type="button">Download</button>
+        <button class="hero-btn" type="button">Download</button>
         <img src="./images/header-img.png" alt="mobile phone" width="865" />
       </section>
 
-      <section id="features">
-        <h2>KEY FEATURES</h2>
-        <p>
+      <section id="features" class="features">
+        <h2 class="features-title section-title">KEY FEATURES</h2>
+        <p class="features-text section-text">
           Get the best mobile experience with our Mobileapp. With a
           user-friendly interface, personalized recommendations, secure
           transactions, and real-time updates, our app offers everything you
           need to stay connected and productive
         </p>
-        <ul>
-          <li>
-            <h4>User-Friendly Interface:</h4>
-            <p>
+        <ul class="features-list">
+          <li class="features-list-item">
+            <h4 class="features-list-subtitle">User-Friendly Interface:</h4>
+            <p class="features-list-text">
               Intuitive and easy-to-navigate interface designed to provide a
               seamless mobile experience for users.
             </p>
           </li>
-          <li>
-            <h4>Personalized Recommendations:</h4>
-            <p>
+          <li class="features-list-item">
+            <h4 class="features-list-subtitle">Personalized Recommendations:</h4>
+            <p class="features-list-text">
               The app provides personalized recommendations based on user
               preferences and behavior, allowing for more relevant content and a
               more engaging experience.
             </p>
-          </li>
+          </li class="features-list-item">
           <li>
-            <h4>Real-Time Updates:</h4>
-            <p>
+            <h4 class="features-list-subtitle">Real-Time Updates:</h4>
+            <p class="features-list-text">
               Users receive real-time updates and notifications to stay informed
               on important news and events, and to stay up-to-date with changes
               to the app.
             </p>
           </li>
-          <li>
-            <h4>Integration with Other Apps:</h4>
-            <p>
+          <li class="features-list-item">
+            <h4 class="features-list-subtitle">Integration with Other Apps:</h4>
+            <p class="features-list-text">
               The app integrates with other popular apps, making it easy for
               users to connect with their social media accounts, or to easily
               make in-app purchases using their preferred payment method.
             </p>
           </li>
-          <li>
-            <h4>Multi-Language Support:</h4>
-            <p>
+          <li class="features-list-item">
+            <h4 class="features-list-subtitle">Multi-Language Support:</h4>
+            <p class="features-list-text">
               The app is designed to be accessible to users all around the
               world, with support for multiple languages, making it easier for
               people to use the app in their native language.
             </p>
           </li>
-          <li>
-            <h4>Offline Capabilities:</h4>
-            <p>
+          <li class="features-list-item">
+            <h4 class="features-list-subtitle">Offline Capabilities:</h4>
+            <p class="features-list-text">
               The app offers offline capabilities, allowing users to access
               certain features and content even when they are not connected to
               the internet.
@@ -101,68 +134,68 @@
         />
       </section>
 
-      <section>
-        <h2>WATCH THE VIDEO</h2>
-        <p>
+      <section class="video">
+        <h2 class="video-title section-title">WATCH THE VIDEO</h2>
+        <p class="video-text">
           Watch the video below to see our mobile app in action. With a
           user-friendly interface, personalized recommendations, secure
           transactions, and real-time updates, our app is available for download
           on both Apple and Android devices and is designed to make your life
           easier.
         </p>
-        <ul>
-          <li><a href=""></a>Apple</li>
-          <li><a href=""></a>Android</li>
+        <ul class="video-system-list">
+          <li class="video-system-item"><a class="video-system-link" href=""></a>Apple</li>
+          <li class="video-system-item"><a class="video-system-link" href=""></a>Android</li>
         </ul>
         <img src="./images/watch-img.png" alt="mobile phone-2" />
       </section>
 
-      <section id="team">
-        <h2>OUR TEAM</h2>
-        <p>
+      <section id="team" class="team">
+        <h2 class="team-title section-title">OUR TEAM</h2>
+        <p class="team-text section-text">
           Our team is made up of talented and passionate individuals who are
           committed to providing the best experience for our users. Each member
           brings a unique set of skills and expertise to the table, allowing us
           to work collaboratively and effectively to achieve our goals.
         </p>
-        <ul>
-          <li>
+        <ul class="team-list">
+          <li class="team-list-item">
             <img src="./images/team-img-1.jpg" alt="David Patel" width="264" />
-            <h3>David Patel</h3>
-            <p>Managing Direcor</p>
+            <h3 class="team-list-subtitle">David Patel</h3>
+            <p class="team-list-text">Managing Direcor</p>
           </li>
-          <li>
+          <li class="team-list-item">
             <img src="./images/team-img-2.jpg" alt="Rachel Kim" width="264" />
-            <h3>Rachel Kim</h3>
-            <p>Lead Designer</p>
+            <h3 class="team-list-subtitle">Rachel Kim</h3>
+            <p class="team-list-text">Lead Designer</p>
           </li>
-          <li>
+          <li class="team-list-item">
             <img
               src="./images/team-img-3.jpg"
               alt="Samantha Chen"
               width="264"
             />
-            <h3>Samantha Chen</h3>
-            <p>Lead Developer</p>
+            <h3 class="team-list-subtitle">Samantha Chen</h3>
+            <p class="team-list-text">Lead Developer</p>
           </li>
-          <li>
+          <li class="team-list-item">
             <img
               src="./images/team-img-4.jpg"
               alt="Andrew Nguyen"
               width="264"
             />
-            <h3>Andrew Nguyen</h3>
-            <p>Sr. UI Designer</p>
+            <h3 class="team-list-subtitle">Andrew Nguyen</h3>
+            <p class="team-list-text">Sr. UI Designer</p>
           </li>
         </ul>
       </section>
 
-      <section id="testimonials">
-        <h2>WHAT OUR COSTUMER’S SAY</h2>
-        <img src="./images/costumer-img.jpg" alt="costumer-1" width="181" />
-        <h3>Jon Doe</h3>
-        <p>Company Inc.</p>
-        <p>
+      <section id="testimonials" class="testimonials">
+        <h2 class="testimonials-title section-title">WHAT OUR COSTUMER’S SAY</h2>
+        <img src="./images/costumer-img.jpg" alt="Jon Doe" width="181" />
+        <h3 class="testimonials-subtitle">Jon Doe</h3>
+        <p class="testimonials-subtext">Company Inc.</p>
+        <p class="testimonials-text section-text">
           I've been using this app for a few weeks now and I have to say, I'm
           really impressed. It's so easy to use and the personalized
           recommendations are spot-on. Plus, the transactions are secure and the
@@ -172,32 +205,32 @@
       </section>
     </main>
 
-    <footer id="contact">
-      <h3>CONTACT US</h3>
-      <p>Get in touch with us</p>
-      <p>
+    <footer id="contact" class="footer">
+      <h3 class="footer-title section-title">CONTACT US</h3>
+      <p class="footer-subtitle">Get in touch with us</p>
+      <p class="footer-text">
         Have a question or comment about our app? Get in touch with us using the
         contact form below and our team will respond shortly.
       </p>
-      <ul>
-        <li>
-          <a
+      <ul class="footer-soc-list">
+        <li class="footer-soc-item">
+          <a class="footer-soc-link"
             href="https://www.facebook.com/ "
             target="_blank"
             rel="noopener noreferrer"
             >fb</a
           >
         </li>
-        <li>
-          <a
+        <li class="footer-soc-item">
+          <a class="footer-soc-link"
             href="https://www.twitter.com/"
             target="_blank"
             rel="noopener noreferrer"
             >twitter</a
           >
         </li>
-        <li>
-          <a
+        <li class="footer-soc-item">
+          <a class="footer-soc-link"
             href="https://ua.linkedin.com/"
             target="_blank"
             rel="noopener noreferrer"
@@ -205,14 +238,14 @@
           >
         </li>
       </ul>
-      <address>
-        <ul>
-          <li><a href="tel:+xxxxxxxxxxxx">+xx-xxxx-xxxx-xx</a></li>
-          <li><a href="mailto:goIteens@gmail.com">goIteens@gmail.com</a></li>
+      <address class="footer-address">
+        <ul class="footer-address-list">
+          <li class="footer-address-item"><a class="footer-address-link" href="tel:+xxxxxxxxxxxx">+xx-xxxx-xxxx-xx</a></li>
+          <li class="footer-address-item"><a class="footer-address-link" href="mailto:goIteens@gmail.com">goIteens@gmail.com</a></li>
         </ul>
       </address>
-      <button type="submit">SUBMIT</button>
-      <p>&copy; 2019 GoIteens Template. All Rights Reserved</p>
+      <button class="footer-submit-btn" type="submit">SUBMIT</button>
+      <p class="footer-rights-text">&copy; 2019 GoIteens Template. All Rights Reserved</p>
     </footer>
   </body>
 </html>

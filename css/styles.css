@@ -1,1 +1,319 @@
+body {
+  font-family: "Inter", sans-serif;
+}
 
+ul,
+ol {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.section-title {
+  font-size: 24px;
+  color: #000;
+}
+
+.section-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  color: #000;
+}
+
+/* ------- HEADER ------- */
+
+.header {
+  backdrop-filter: blur(35px);
+  background: linear-gradient(
+    99deg,
+    rgba(0, 197, 235, 0.3) 0%,
+    rgba(181, 68, 254, 0.3) 100%
+  );
+}
+
+.header-logo {
+  font-weight: 400;
+  font-size: 28px;
+  color: #fff;
+}
+
+.header-nav {
+}
+
+.header-nav-list {
+}
+
+.header-nav-item {
+}
+
+.header-nav-link {
+  font-size: 12px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+/* ------- HERO ------- */
+
+.hero {
+  background-color: #06071b;
+}
+
+.hero-title {
+  font-size: 40px;
+  color: #fff;
+}
+
+.hero-subtitle {
+  font-size: 20px;
+  color: #fff;
+}
+
+.hero-list {
+}
+
+.hero-list-item {
+}
+
+.hero-list-text {
+  font-size: 14px;
+  color: #fff;
+}
+
+.hero-btn {
+  border-radius: 5px;
+  width: 200px;
+  height: 42px;
+
+  background: linear-gradient(99deg, #00c5eb 0%, #b544fe 100%);
+  border: none;
+
+  font-weight: 700;
+  font-size: 16px;
+  color: #fff;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+  background: transparent;
+  border: 2px solid;
+
+  border-image-source: linear-gradient(99deg, #00c5eb 0%, #b544fe 100%);
+  border-image-slice: 1;
+}
+
+/* ------- FEATURES ------- */
+
+.features {
+}
+
+.features-title {
+}
+
+.features-text {
+}
+
+.features-list {
+}
+
+.features-list-item {
+}
+
+.features-list-subtitle {
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  color: #000;
+}
+
+.features-list-text {
+  font-weight: 500;
+  font-size: 14px;
+  color: #000;
+}
+
+/* ------- VIDEO ------- */
+
+.video {
+  background-color: #06071b;
+}
+
+.video-title {
+  color: #fff;
+}
+
+.video-text {
+  font-weight: 500;
+  font-size: 16px;
+  color: #fff;
+}
+
+.video-system-list {
+}
+
+.video-system-item {
+}
+
+.video-system-link {
+}
+
+/* ------- TEAM ------- */
+
+.team {
+}
+
+.team-title {
+}
+
+.team-text {
+}
+
+.team-list {
+}
+
+.team-list-item {
+  border-radius: 15px;
+  width: 288px;
+  height: 364px;
+
+  backdrop-filter: blur(35px);
+  background: linear-gradient(
+    318deg,
+    rgba(0, 197, 235, 0.5) 0%,
+    rgba(181, 68, 254, 0.5) 100%
+  );
+}
+
+.team-list-subtitle {
+  font-size: 18px;
+  color: #fff;
+  text-align: center;
+}
+
+.team-list-text {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.71;
+  text-align: center;
+  color: #fff;
+}
+
+/* ------- REVIEWS ------- */
+
+.testimonials {
+}
+
+.testimonials-title {
+}
+
+.testimonials-subtitle {
+  font-size: 18px;
+  color: #000;
+}
+
+.testimonials-subtext {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.71;
+  text-align: center;
+  color: #000;
+}
+
+.testimonials-text {
+}
+
+/* ------- FOOTER ------- */
+
+.footer {
+  background-color: #06071b;
+}
+
+.footer-title {
+  color: #fff;
+}
+
+.footer-subtitle {
+  font-weight: 500;
+  font-size: 24px;
+  color: #fff;
+}
+
+.footer-text {
+  font-weight: 500;
+  font-size: 16px;
+  color: #fff;
+}
+
+.footer-soc-list {
+}
+
+.footer-soc-item {
+}
+
+.footer-soc-link {
+}
+
+.footer-address {
+}
+
+.footer-address-list {
+}
+
+.footer-address-item {
+}
+
+.footer-address-link {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #fff;
+}
+
+.footer-submit-btn {
+  border-radius: 5px;
+  width: 200px;
+  height: 42px;
+
+  background: linear-gradient(99deg, #00c5eb 0%, #b544fe 100%);
+  border: none;
+
+  font-weight: 700;
+  font-size: 16px;
+  color: #fff;
+}
+
+.footer-submit-btn:hover,
+.footer-submit-btn:focus {
+  background: transparent;
+  border: 2px solid;
+
+  border-image-source: linear-gradient(99deg, #00c5eb 0%, #b544fe 100%);
+  border-image-slice: 1;
+}
+
+.footer-rights-text {
+  font-weight: 500;
+  font-size: 14px;
+  color: #fff;
+}
